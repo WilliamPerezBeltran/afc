@@ -1,0 +1,328 @@
+.
+├── apphosting.yaml
+├── firebase.json
+├── info
+│   ├── a.txt
+│   ├── deploy.txt
+│   ├── index (copy).css
+│   ├── info_mercedex.txt
+│   ├── info_website_process_urls.txt
+│   ├── mediaQueries.txt
+│   ├── secret-github.txt
+│   ├── tarifas_cabanas.txt
+│   └── tree-app.txt
+├── open_url_at_once.sh
+├── package.json
+├── package-lock.json
+├── public
+│   ├── 404.html
+│   ├── assets
+│   │   ├── images
+│   │   │   ├── cabanaAquabosque
+│   │   │   │   ├── image-0.jpg
+│   │   │   │   ├── image-10.jpg
+│   │   │   │   ├── image-1.jpg
+│   │   │   │   ├── image-2.jpg
+│   │   │   │   ├── image-3.jpg
+│   │   │   │   ├── image-4.jpg
+│   │   │   │   ├── image-5.jpg
+│   │   │   │   ├── image-6.jpg
+│   │   │   │   ├── image-7.jpg
+│   │   │   │   ├── image-8.jpg
+│   │   │   │   ├── image-9.jpg
+│   │   │   │   └── renombrar_imagenes.sh
+│   │   │   ├── cabanaEcoRustica
+│   │   │   │   ├── image-0.jpg
+│   │   │   │   ├── image-1.jpg
+│   │   │   │   ├── image-2.jpg
+│   │   │   │   ├── image-3.jpg
+│   │   │   │   ├── image-4.jpg
+│   │   │   │   ├── image-5.jpg
+│   │   │   │   ├── image-6.jpg
+│   │   │   │   ├── image-7.jpg
+│   │   │   │   └── renombrar_imagenes.sh
+│   │   │   ├── casa
+│   │   │   │   ├── image-0.jpg
+│   │   │   │   ├── image-10.jpg
+│   │   │   │   ├── image-11.jpg
+│   │   │   │   ├── image-14.jpg
+│   │   │   │   ├── image-1.jpg
+│   │   │   │   ├── image-2.jpg
+│   │   │   │   ├── image-3.jpg
+│   │   │   │   ├── image-4.jpg
+│   │   │   │   ├── image-5.jpg
+│   │   │   │   ├── image-6.jpg
+│   │   │   │   ├── image-7.jpg
+│   │   │   │   ├── image-8.jpg
+│   │   │   │   ├── image-9.jpg
+│   │   │   │   └── renombrar_imagenes.sh
+│   │   │   ├── collection-1.jpg
+│   │   │   ├── collection-2.jpg
+│   │   │   ├── collection-3.jpg
+│   │   │   ├── cta-1.jpg
+│   │   │   ├── cta-2.jpg
+│   │   │   ├── experiment
+│   │   │   │   └── renombrar_imagenes.sh
+│   │   │   ├── logo.png
+│   │   │   ├── mapa
+│   │   │   │   └── mapa-las-mercedes.png
+│   │   │   ├── nature-10.jpg
+│   │   │   ├── nature-11.jpg
+│   │   │   ├── nature-12.jpg
+│   │   │   ├── nature-13.jpg
+│   │   │   ├── nature-14.jpg
+│   │   │   ├── nature-15.jpg
+│   │   │   ├── nature-16.jpg
+│   │   │   ├── nature-17.jpg
+│   │   │   ├── nature-18.jpg
+│   │   │   ├── nature-19.jpg
+│   │   │   ├── nature-1.jpg
+│   │   │   ├── nature-20.jpg
+│   │   │   ├── nature-21.jpg
+│   │   │   ├── nature-22.jpg
+│   │   │   ├── nature-23.jpg
+│   │   │   ├── nature-24.jpg
+│   │   │   ├── nature-25.jpg
+│   │   │   ├── nature-26.jpg
+│   │   │   ├── nature-27.jpg
+│   │   │   ├── nature-28.jpg
+│   │   │   ├── nature-29.jpg
+│   │   │   ├── nature-2.jpg
+│   │   │   ├── nature-30.jpg
+│   │   │   ├── nature-3.jpg
+│   │   │   ├── nature-40.jpg
+│   │   │   ├── nature-41.jpg
+│   │   │   ├── nature-42.jpg
+│   │   │   ├── nature-43.jpg
+│   │   │   ├── nature-44.jpg
+│   │   │   ├── nature-4.jpg
+│   │   │   ├── nature-5.jpg
+│   │   │   ├── nature-6.jpg
+│   │   │   ├── nature-70.jpg
+│   │   │   ├── nature-71.jpg
+│   │   │   ├── nature-7.jpg
+│   │   │   ├── nature-80.jpg
+│   │   │   ├── nature-8.jpg
+│   │   │   ├── nature-90.jpg
+│   │   │   ├── nature-9.jpg
+│   │   │   ├── nature-zz.jpg
+│   │   │   ├── product-1.jpg
+│   │   │   ├── product-2.jpg
+│   │   │   ├── product-3.jpg
+│   │   │   ├── product-4.jpg
+│   │   │   ├── product-5.jpg
+│   │   │   ├── product-6.jpg
+│   │   │   ├── product-7.jpg
+│   │   │   ├── product-8.jpg
+│   │   │   ├── sfdadsfs.jpg
+│   │   │   ├── special-banner.jpg
+│   │   │   ├── sponsor-1.png
+│   │   │   ├── sponsor-2.png
+│   │   │   ├── sponsor-3.png
+│   │   │   ├── sponsor-4.png
+│   │   │   └── sponsor-5.png
+│   │   ├── slider
+│   │   │   ├── image-0.jpg
+│   │   │   ├── image-1.jpg
+│   │   │   ├── image-2.jpg
+│   │   │   ├── image-3.jpg
+│   │   │   └── renombrar_imagenes.sh
+│   │   ├── slider chatgpt
+│   │   │   ├── image-0.jpg
+│   │   │   ├── image-0.png
+│   │   │   ├── image-1.jpg
+│   │   │   ├── image-2.jpg
+│   │   │   ├── image-3.jpg
+│   │   │   └── renombrar_imagenes.sh
+│   │   └── videos
+│   │       └── rename-videos-files.sh
+│   ├── favicon.ico
+│   ├── iconos_services.txt
+│   ├── index.css
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── README.md
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── app-recovery.js
+│   ├── AppStyle.js
+│   ├── App.test.js
+│   ├── components
+│   │   ├── about
+│   │   │   └── About.js
+│   │   ├── availability
+│   │   │   ├── Availability.css
+│   │   │   └── Availability.js
+│   │   ├── bedroom
+│   │   │   ├── Bedroom.css
+│   │   │   └── Bedroom.js
+│   │   ├── blog
+│   │   │   └── Blog.js
+│   │   ├── cabana
+│   │   │   ├── Cabana.css
+│   │   │   └── Cabana.js
+│   │   ├── collection
+│   │   │   ├── ButtonCard.js
+│   │   │   ├── CollectionCard.js
+│   │   │   ├── CollectionContainer.js
+│   │   │   ├── Collection.css
+│   │   │   ├── Collection.js
+│   │   │   ├── ItemCollection.js
+│   │   │   └── ItemCollections.js
+│   │   ├── contact
+│   │   │   ├── Contact.css
+│   │   │   └── Contact.js
+│   │   ├── create-component.sh
+│   │   ├── cta
+│   │   │   ├── Cta.css
+│   │   │   └── Cta.js
+│   │   ├── dynamicSlider
+│   │   │   ├── DynamicSlider.css
+│   │   │   └── DynamicSlider.js
+│   │   ├── dynamicVideos
+│   │   │   ├── CollectionCard.js
+│   │   │   ├── CollectionContainer.js
+│   │   │   ├── Collection.css
+│   │   │   ├── Collection.js
+│   │   │   ├── index.js
+│   │   │   ├── ItemCollection.js
+│   │   │   └── ItemCollections.js
+│   │   ├── footer
+│   │   │   ├── Footer.css
+│   │   │   └── Footer.js
+│   │   ├── form
+│   │   │   ├── Form.css
+│   │   │   └── Form.js
+│   │   ├── gallerySlider
+│   │   │   ├── GallerySlider.css
+│   │   │   └── GallerySlider.js
+│   │   ├── googleMaps
+│   │   │   ├── Geocoder.js
+│   │   │   ├── GoogleMaps.css
+│   │   │   └── GoogleMaps.js
+│   │   ├── header
+│   │   │   ├── HeaderBack.js
+│   │   │   ├── Header.css
+│   │   │   └── Header.js
+│   │   ├── hero
+│   │   │   ├── Hero.css
+│   │   │   └── Hero.js
+│   │   ├── home
+│   │   │   └── Home.js
+│   │   ├── imagesSlider
+│   │   │   ├── ArrowBigLeft.js
+│   │   │   ├── ArrowBigRight.js
+│   │   │   ├── imageSlider.css
+│   │   │   ├── ImageSlider.js
+│   │   │   └── ImagesSlider.js
+│   │   ├── infoLocation
+│   │   │   ├── index.js
+│   │   │   ├── InfoLocation.css
+│   │   │   └── InfoLocation.js
+│   │   ├── insta
+│   │   │   ├── InstaBack.js
+│   │   │   ├── Insta.css
+│   │   │   └── Insta.js
+│   │   ├── modal
+│   │   │   ├── Modal.css
+│   │   │   └── Modal.js
+│   │   ├── nature
+│   │   │   ├── Nature.css
+│   │   │   └── Nature.js
+│   │   ├── product
+│   │   │   ├── Product.css
+│   │   │   └── Product.js
+│   │   ├── rate
+│   │   │   ├── Rate.css
+│   │   │   └── Rate.js
+│   │   ├── rowCabana
+│   │   │   ├── RowCabana.css
+│   │   │   └── RowCabana.js
+│   │   ├── service
+│   │   │   ├── Service.css
+│   │   │   └── Service.js
+│   │   ├── shop
+│   │   │   └── Shop.js
+│   │   ├── special
+│   │   │   ├── SpecialBack.js
+│   │   │   ├── Special.css
+│   │   │   └── Special.js
+│   │   ├── urlsImages
+│   │   │   └── UrlsImages.js
+│   │   └── verticalSocialMedia
+│   │       ├── VerticalSocialMedia.css
+│   │       └── VerticalSocialMedia.js
+│   ├── containers
+│   │   ├── Content.js
+│   │   ├── index.js
+│   │   └── Layout.js
+│   ├── copy-app.js
+│   ├── firebase-config.js
+│   ├── fonts
+│   │   └── proxima-nova
+│   │       ├── proximanova-bolditalic.ttf
+│   │       ├── proximanova-bolditalic.woff
+│   │       ├── proximanova-bolditalic.woff2
+│   │       ├── proximanova-bold.ttf
+│   │       ├── proximanova-bold.woff
+│   │       ├── proximanova-bold.woff2
+│   │       ├── proximanova-extrabold.ttf
+│   │       ├── proximanova-extrabold.woff
+│   │       ├── proximanova-extrabold.woff2
+│   │       ├── proximanova-light.ttf
+│   │       ├── proximanova-light.woff
+│   │       ├── proximanova-light.woff2
+│   │       ├── proximanova-mediumitalic.ttf
+│   │       ├── proximanova-mediumitalic.woff
+│   │       ├── proximanova-mediumitalic.woff2
+│   │       ├── proximanova-medium.ttf
+│   │       ├── proximanova-medium.woff
+│   │       ├── proximanova-medium.woff2
+│   │       ├── proximanova-regularitalic.ttf
+│   │       ├── proximanova-regularitalic.woff
+│   │       ├── proximanova-regularitalic.woff2
+│   │       ├── proximanova-regular.ttf
+│   │       ├── proximanova-regular.woff
+│   │       ├── proximanova-regular.woff2
+│   │       ├── proximanova-semibolditalic.ttf
+│   │       ├── proximanova-semibolditalic.woff
+│   │       ├── proximanova-semibolditalic.woff2
+│   │       ├── proximanova-semibold.ttf
+│   │       ├── proximanova-semibold.woff
+│   │       ├── proximanova-semibold.woff2
+│   │       ├── proximanova-thinitalic.ttf
+│   │       ├── proximanova-thinitalic.woff
+│   │       ├── proximanova-thinitalic.woff2
+│   │       ├── proximanova-thin.ttf
+│   │       ├── proximanova-thin.woff
+│   │       └── proximanova-thin.woff2
+│   ├── fonts.css
+│   ├── index.css
+│   ├── index.js
+│   ├── jsonData
+│   │   ├── descriptionCabanas.js
+│   │   └── rate.js
+│   ├── reportWebVitals.js
+│   ├── setupTests.js
+│   ├── SpinnerStyle.js
+│   ├── theme
+│   │   └── theme.js
+│   ├── utils
+│   │   └── Spinner
+│   │       ├── Spinner.js
+│   │       └── SpinnerStyle.js
+│   └── vistas
+│       ├── VistaAvailability.js
+│       ├── VistaCabanas.js
+│       ├── VistaContact.js
+│       ├── VistaGallery.js
+│       ├── VistaIndex.js
+│       └── VistaVideos.js
+├── tree.txt
+└── urls.txt
+
+53 directories, 273 files
