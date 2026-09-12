@@ -10,7 +10,7 @@
   --afc-dark-3:     #232A3D;
   --afc-red:        #E4342B;
   --afc-red-deep:   #B71F1F;
-  --afc-orange:     #F0793C;
+  --afc-orange:     #E4342B;
   --afc-gray-bg:    #F6F7FB;
   --afc-white:      #FFFFFF;
   --afc-text:       #161A24;
@@ -169,8 +169,8 @@ a { color: inherit; }
   max-width: 1160px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
-  gap: 60px;
+  grid-template-columns: 1fr;
+  gap: 40px;
   align-items: center;
   position: relative;
   z-index: 1;
@@ -186,12 +186,12 @@ a { color: inherit; }
   padding: 6px 16px;
   font-size: 12px;
   font-weight: 600;
-  color: #FF9A85;
+  color: #E4342B;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   margin-bottom: 24px;
 }
-.afc-hero__eyebrow span { width: 6px; height: 6px; border-radius: 50%; background: #FF6B5A; box-shadow: 0 0 0 0 rgba(255,107,90,0.6); animation: pulse 2s infinite; }
+.afc-hero__eyebrow span { width: 6px; height: 6px; border-radius: 50%; background: #E4342B; box-shadow: 0 0 0 0 rgba(228,52,43,0.6); animation: pulse 2s infinite; }
 .afc-hero h1 {
   font-family: var(--font-head);
   font-size: clamp(30px, 4.2vw, 50px);
@@ -203,10 +203,7 @@ a { color: inherit; }
 }
 .afc-hero h1 em {
   font-style: normal;
-  background: var(--grad-primary);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--afc-red);
 }
 .afc-hero__sub {
   font-size: 17px;
@@ -258,13 +255,13 @@ a { color: inherit; }
 .afc-hero__panel {
   border-radius: var(--radius-lg);
   overflow: hidden;
-  aspect-ratio: 4/3;
+  aspect-ratio: 2065/762;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.12);
   box-shadow: var(--shadow-lg);
   position: relative;
 }
-.afc-hero__panel video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.afc-hero__panel video, .afc-hero__panel img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .afc-hero__panel-badge {
   position: absolute; left: 16px; bottom: 16px;
   background: rgba(16,19,28,0.72);
@@ -313,7 +310,6 @@ a { color: inherit; }
 @media (max-width: 860px) {
   .afc-hero { padding: 56px 20px 0; }
   .afc-hero__inner { grid-template-columns: 1fr; gap: 32px; padding-bottom: 40px; }
-  .afc-hero__panel { aspect-ratio: 16/9; }
 }
 
 /* ============================================================
@@ -339,7 +335,7 @@ a { color: inherit; }
   color: var(--afc-red);
   margin-bottom: 14px;
 }
-.afc-label--white { color: #FF9A85; }
+.afc-label--white { color: #E4342B; }
 .afc-label::before { content: ''; width: 22px; height: 2px; border-radius: 2px; background: var(--grad-primary); }
 .afc-h2 {
   font-family: var(--font-head);
@@ -422,7 +418,7 @@ a { color: inherit; }
   gap: 8px;
   background: rgba(228,52,43,0.16);
   border: 1px solid rgba(228,52,43,0.35);
-  color: #FF9A85;
+  color: #E4342B;
   font-size: 13px;
   font-weight: 700;
   padding: 7px 16px;
@@ -603,6 +599,7 @@ a { color: inherit; }
   background: radial-gradient(circle at 30% 25%, rgba(228,52,43,0.35), transparent 60%);
 }
 .afc-team-card__photo span { position: relative; z-index: 1; }
+.afc-team-card__photo img { position: relative; z-index: 1; width: 100%; height: 100%; object-fit: contain; }
 .afc-team-card__body { padding: 18px 16px 22px; }
 .afc-team-card__name { font-family: var(--font-head); font-size: 15px; font-weight: 700; margin-bottom: 4px; }
 .afc-team-card__role { font-size: 11.5px; color: var(--afc-red); font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px; }
